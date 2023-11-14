@@ -1,0 +1,9 @@
+.container-pai {
+    padding: 40px 130px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-pai {
+        padding: 40px 16px 0;
+    }
+}

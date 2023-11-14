@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Tourist Attractions</title>
+</head>
+<body>
+    <main>
+
+            <div class="container-pai" >
+                <div class="container-h1-input">
+                    <h1 class="page-titulo__tourist" data-test="title-form">Adicionar um Ponto Turístico</h1>
+
+                    <form class="form__tourist-attractions">
+                        <div class="container-input">
+                            <div class="wrapper-input__img">
+                                <label class="label-input" data-test="input-image" for="input__img" tabIndex="0">
+                                    <span class="input__span"></span>
+                                </label>
+                            <input id="input__img" type="file" accept="image/*">
+                            </div>
+
+                            <div class="wrapper-input__text">
+                                <input name="input-title" class="input-text__titulo" data-test="input-titulo" type="text" accept="text" placeholder="Titulo">
+                                <input name="input-description" class="input-text__descricao" data-test="input-descrição" type="text" accept="text" placeholder="Descrição">
+                                <div class="wrapper-button-submit">
+                                    <button class="button-submit__input" data-test="button-submit" type="submit">Adicionar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+
+                <div class="container-cards">
+                    <h1 class="page-titulo__img__spot" data-test="title-list">Pontos Turísticos</h1>
+
+                    <ul class="wrapper-ul__cards" data-test="container-item-list"></ul>
+
+                </div>
+            </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="bundle.js"></script>
+
+
+</body>
+</html>
